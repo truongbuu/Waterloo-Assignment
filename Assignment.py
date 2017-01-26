@@ -92,16 +92,16 @@ print 'Coefficient for y with Ridge Regression:', Ridge_model_y.coef_
 
 i = Ridge_model_x.predict(X_train)
 o = Ridge_model_x.predict(X_test)
-print 'Root Mean Square Error for In-Sample of x with Ridge Regression :', mean_squared_error(xy_pos_train[:,0], i)
-print 'Root Mean Square Error for Out-Sample of x with Ridge Regression : ', mean_squared_error(xy_pos_test[:,0], o)
+print 'Mean Square Error for In-Sample of x with Ridge Regression :', mean_squared_error(xy_pos_train[:,0], i)
+print 'Mean Square Error for Out-Sample of x with Ridge Regression : ', mean_squared_error(xy_pos_test[:,0], o)
 
 
 # In[ ]:
 
 i = Ridge_model_y.predict(X_train)
 o = Ridge_model_y.predict(X_test)
-print 'Root Mean Square Error for In-Sample of y with Ridge Regression ', mean_squared_error(xy_pos_train[:,1], i)
-print 'Root Mean Square Error for Out-Sample of y with Ridge Regression: ', mean_squared_error(xy_pos_test[:,1], o)
+print 'Mean Square Error for In-Sample of y with Ridge Regression ', mean_squared_error(xy_pos_train[:,1], i)
+print 'Mean Square Error for Out-Sample of y with Ridge Regression: ', mean_squared_error(xy_pos_test[:,1], o)
 
 
 # # _Apply Lasso Regression as our model_#

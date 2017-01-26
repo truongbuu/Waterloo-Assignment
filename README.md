@@ -4,7 +4,7 @@ This repository gives the solution of the problem: Learning the behavior of proj
 
 The submission file is: submission.csv 
 
-LIBRARIES FOR PRODUCING THIS FILE:
+###LIBRARIES FOR PRODUCING THIS FILE:
 
 1. Python 2.7
 
@@ -18,7 +18,7 @@ LIBRARIES FOR PRODUCING THIS FILE:
 
 6. Jupyter Notebook (OPTIONAL)
 
-STEPS FOR PRODUCING THIS FILE:
+###STEPS FOR PRODUCING THIS FILE:
 
 1. Pull the repository (or download) to local computer
 
@@ -28,7 +28,7 @@ STEPS FOR PRODUCING THIS FILE:
 
 4. The resulted file is: submission.csv
 
-OTHER FILES:
+###OTHER FILES:
 
 1. Assignment.ipynb : a python notebook with the same code as the Assignment.py but this file contains some visualization and the comment is easier to follow (can be used for generate the submission.csv - require Jupyter Notebook installed). This file can be viewed on the repository.
 

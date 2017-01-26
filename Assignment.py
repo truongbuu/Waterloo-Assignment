@@ -32,7 +32,7 @@ df = pd.read_csv('Data.csv')
 
 # In[ ]:
 
-df = df[df.t != 0]
+#df = df[df.t != 0]
 
 
 # In[ ]:

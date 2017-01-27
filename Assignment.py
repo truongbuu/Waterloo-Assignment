@@ -92,16 +92,16 @@ print 'Coefficient for y with Ridge Regression:', Ridge_model_y.coef_
 
 i = Ridge_model_x.predict(X_train)
 o = Ridge_model_x.predict(X_test)
-print 'Square Error for In-Sample of x with Ridge Regression :', mean_squared_error(xy_pos_train[:,0], i)
-print 'Square Error for Out-Sample of x with Ridge Regression : ', mean_squared_error(xy_pos_test[:,0], o)
+print 'Root Mean Square Error for In-Sample of x with Ridge Regression :', np.sqrt(mean_squared_error(xy_pos_train[:,0], i))
+print 'Root Mean Square Error for Out-Sample of x with Ridge Regression : ', np.sqrt(mean_squared_error(xy_pos_test[:,0], o))
 
 
 # In[ ]:
 
 i = Ridge_model_y.predict(X_train)
 o = Ridge_model_y.predict(X_test)
-print 'Square Error for In-Sample of y with Ridge Regression ', mean_squared_error(xy_pos_train[:,1], i)
-print 'Square Error for Out-Sample of y with Ridge Regression: ', mean_squared_error(xy_pos_test[:,1], o)
+print 'Root Mean Square Error for In-Sample of y with Ridge Regression ', np.sqrt(mean_squared_error(xy_pos_train[:,1], i))
+print 'Root Mean Square Error for Out-Sample of y with Ridge Regression: ', np.sqrt(mean_squared_error(xy_pos_test[:,1], o))
 
 
 # # _Apply Lasso Regression as our model_#
@@ -128,16 +128,16 @@ print 'Coefficient for y with Lasso Regression:', Lasso_model_y.coef_
 
 i = Lasso_model_x.predict(X_train)
 o = Lasso_model_x.predict(X_test)
-print 'Mean Square Error for In-Sample of x with Lasso Regression :', mean_squared_error(xy_pos_train[:,0], i)
-print 'Mean Square Error for Out-Sample of x with Lasso Regression : ', mean_squared_error(xy_pos_test[:,0], o)
+print 'Root Mean Square Error for In-Sample of x with Lasso Regression :', np.sqrt(mean_squared_error(xy_pos_train[:,0], i))
+print 'Root Mean Square Error for Out-Sample of x with Lasso Regression : ', np.sqrt(mean_squared_error(xy_pos_test[:,0], o))
 
 
 # In[ ]:
 
 i = Lasso_model_y.predict(X_train)
 o = Lasso_model_y.predict(X_test)
-print 'Mean Square Error for In-Sample of y with Lasso Regression :', mean_squared_error(xy_pos_train[:,1], i)
-print 'Mean Square Error for Out-Sample of y with Lasso Regression : ', mean_squared_error(xy_pos_test[:,1], o)
+print 'Root Mean Square Error for In-Sample of y with Lasso Regression :', np.sqrt(mean_squared_error(xy_pos_train[:,1], i))
+print 'Root Mean Square Error for Out-Sample of y with Lasso Regression : ', np.sqrt(mean_squared_error(xy_pos_test[:,1], o))
 
 
 # # _Predict the trajectory of a projectile launched at 45 degrees with an initial velocity of 10 m/s till it hits the ground or timeindex=100 whichever is earlier_

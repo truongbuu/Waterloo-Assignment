@@ -2,7 +2,7 @@
 
 This repository gives the solution of the problem: Learning the behavior of projectile based on data.
 
-The submission file is: submission.csv 
+The submission file is: submission.csv (result from Ridge Regressio)
 
 ###LIBRARIES FOR PRODUCING THIS FILE:
 

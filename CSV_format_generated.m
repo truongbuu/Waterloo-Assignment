@@ -39,3 +39,11 @@ x = vx*t;
 y = vy*t -0.5*9.8*t.^2;
 A = [x;y];
 csvwrite('Ground_truth.csv',A');
+
+vx = 1000*sin(45*pi/180);
+vy = 1000*cos(45*pi/180);
+t = [1:2000]*0.1;
+x = vx*t;
+y = vy*t -0.5*9.8*t.^2;
+A = [x;y];
+csvwrite('Ground_truth_extreme.csv',A');

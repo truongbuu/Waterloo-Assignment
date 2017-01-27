@@ -218,7 +218,7 @@ out_df
 
 # In[ ]:
 
-out_df.to_csv('submission.csv', index= False)
+out_df.to_csv('submission.csv',header=False, index= False)
 
 
 # In[ ]:

@@ -52,7 +52,7 @@ X = df.values
 
 # In[ ]:
 
-poly = PolynomialFeatures(6)
+poly = PolynomialFeatures(5)
 X =poly.fit_transform(X)
 
 

@@ -22,9 +22,9 @@ The submission file is: submission.csv (result from Ridge Regression)
 
 1. Pull the repository (or download) to local computer
 
-2. Using command line, cd to the downloaded folder
+2. Using command line, change directory tto the downloaded folder
 
-3. After having Python and assiciated libraries installed, type: py Assignment.py
+3. After having Python and associated libraries installed, type: py Assignment.py
 
 4. The resulted file is: submission.csv
 
